@@ -65,6 +65,9 @@ app.get('/users/:userName', function(req, res){
         data: {
             title: 'Hello My Name is',
             user: user
+        },
+        vue: {
+            mixins: [exampleMixin]
         }
     });
 });
